@@ -1,8 +1,41 @@
 {
-    "users": [
+    "flight": [
         {
             "id": 1,
-            "name": "Jennifer"
+            "code": "AV1596",
+            "dateFlight": "24/11/2022",
+            "timeFlight": "10:00 pm",
+            "itinerary": {
+                "origin": "Colombia",
+                "destiny": "Suiza",
+                "stopover": false,
+                "duration": "7h 30min",
+                "price": "800.000 COP"
+            },
+            "seats": {
+                "numberRow": 10,
+                "numberColumn": 8,
+                "total": 80
+            }
+        }
+    ],
+    "pasajeros": [
+        {
+            "id": 1,
+            "information": {
+                "name": "Marta",
+                "lastName": "Vargas",
+                "age": "30",
+                "typeId": "CC",
+                "numberId": "132744",
+                "address": {
+                    "city": "Medellín",
+                    "country": "Colombia",
+                    "barrio": "Rosales"
+                },
+                "flightId": 1,
+                "seat": "A10"
+            }
         }
     ]
 }
