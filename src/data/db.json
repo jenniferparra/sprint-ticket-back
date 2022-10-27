@@ -3,19 +3,73 @@
         {
             "id": 1,
             "code": "AV1596",
-            "dateFlight": "24/11/2022",
-            "timeFlight": "10:00 pm",
-            "itinerary": {
-                "origin": "Colombia",
-                "destiny": "Suiza",
-                "stopover": false,
-                "duration": "7h 30min",
-                "price": "800.000 COP"
-            },
+            "departure": "30/10/2022",
+            "arrival": "28/11/2022",
+            "timeDeparture": "10:00 PM",
+            "timeArrival": "5:00 AM",
+            "origin": "Colombia",
+            "destiny": "Suiza",
+            "stopover": false,
+            "duration": "7h 30min",
+            "price": "800.000 COP",
             "seats": {
                 "numberRow": 10,
-                "numberColumn": 8,
-                "total": 80
+                "numberColumn": 6,
+                "total": 60
+            }
+        },
+        {
+            "id": 1,
+            "code": "AV1596",
+            "departure": "30/10/2022",
+            "arrival": "28/11/2022",
+            "timeDeparture": "5:00 PM",
+            "timeArrival": "10:10 PM",
+            "origin": "Argentina",
+            "destiny": "Brasil",
+            "stopover": false,
+            "duration": "5h 10min",
+            "price": "530.000 COP",
+            "seats": {
+                "numberRow": 10,
+                "numberColumn": 6,
+                "total": 60
+            }
+        },
+        {
+            "id": 1,
+            "code": "AV1596",
+            "departure": "30/10/2022",
+            "arrival": "28/11/2022",
+            "timeDeparture": "12:00 AM",
+            "timeArrival": "7:00 AM",
+            "origin": "Medellín",
+            "destiny": "Nueva York",
+            "stopover": false,
+            "duration": "7 horas ",
+            "price": "750.000 COP",
+            "seats": {
+                "numberRow": 10,
+                "numberColumn": 6,
+                "total": 60
+            }
+        },
+        {
+            "id": 1,
+            "code": "AV1596",
+            "departure": "30/10/2022",
+            "arrival": "28/11/2022",
+            "timeDeparture": "10:00 PM",
+            "timeArrival": "5:00 AM",
+            "origin": "Perú",
+            "destiny": "Canadá",
+            "stopover": false,
+            "duration": "4h 30min",
+            "price": "670.000 COP",
+            "seats": {
+                "numberRow": 10,
+                "numberColumn": 6,
+                "total": 60
             }
         }
     ],
